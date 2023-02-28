@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<title>Document</title>
+	<!--Подключаю ситили-->
+	<link rel="stylesheet" href="css/main.css">
+	<!--Подключаю ситили-->
+	<!--Подключаем скрипт-->
+	<script src="js/app.js" defer></script> <!--defer добаляем что бы не блокировать загрузку тела-->
+	<!--Подключаем скрипт-->
+</head>
+
+<body>
+	<!--здесь делаем первую страницу-->
+	<header class="main-header"> <!--галавный блок где идет работа с слоями-->
+		<div class="layers">
+			<div class="layers__header">
+				<div class="layers__caption">Фантастические истории</div>
+				<!--не забыть сделать еще слой где 3д на заднем плане большая-->
+				<div class="layers__title">"Волшебный лес"</div>
+
+				<div class="layer layers__base" style="background-image: url(../paralaxsite/img/layer-base.png);"></div>
+				<div class="layer layers__title" style="background-image: url(../paralaxsite/img/layer-middle.png);"></div>
+				<div class="layer layers__front" style="background-image: url(../paralaxsite/img/layer-front.png);"></div>
+
+
+			</div>
+		</div>
+
+	</header>
+	<!--здесь делаем первую страницу-->
+
+	<article class="main-article" style="background-image: url(img/dungeon.jpg);">
+		<div class="main-article_content">
+			<h2 class="main-article__header">Первая глава</h2>
+			<p> В одном маленьком поселении, далеко в сказачном лесу. Жили трусливые, но очень дружелюбные коротышки.
+				Многие называли их ужасными и опасными. Другие огромными и кравожадными, но на сомом деле это были обычные
+				коротышки,
+				которые умели ловко прятатся и пугать людей. Что бы ни кто и не когда, не нашел их... </p>
+		</div>
+		<div class="copy">© Антон Куклин</div>
+
+	</article>
+
+
+
+
+</body>
+
+</html>
