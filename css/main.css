@@ -28,8 +28,18 @@ body {
 	position: relative;
 }
 
-layers {
+.layers {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
 }
-.layers__header {
+
+.layer {
+	height: 100%;
+	width: 100%;
+	position: absolute;
+	background-size: cover;
 }
 
